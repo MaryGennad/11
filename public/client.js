@@ -1,5 +1,5 @@
 // state
-let currCity = "Abbottabad";
+let currCity = "Petrozavodsk";
 let units = "metric";
 
 // Selectors
@@ -74,7 +74,7 @@ function convertCountryCode(country){
 }
 
 function getWeather(){
-    const API_KEY = '64f60853740a1ee3ba20d0fb595c97d5'
+    const API_KEY = 'a2906b093bfe0cb70f7c5e3e7b3baeb7'
 
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${currCity}&appid=${API_KEY}&units=${units}`).then(res => res.json()).then(data => {
     console.log(data)
