@@ -65,7 +65,6 @@ function convertTimeStamp(timestamp, timezone){
    
 }
 
- 
 
 // convert country code to name
 function convertCountryCode(country){
